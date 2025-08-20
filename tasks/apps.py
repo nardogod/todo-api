@@ -1,6 +1,6 @@
-# todos/apps.py
+# tasks/apps.py
 from django.apps import AppConfig
 
-class todosConfig(AppConfig):
+class TasksConfig(AppConfig):
     default_auto_field = "django.db.models.BigAutoField"
-    name = "todos"
+    name = "tasks"
